@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.filter.ForwardedHeaderFilter;
+import com.cjremmett.application.kafka.KafkaTimestampStreamProcessor;
 
 @SpringBootApplication
 public class Application {
