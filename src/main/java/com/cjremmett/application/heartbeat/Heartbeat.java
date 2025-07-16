@@ -9,7 +9,7 @@ import java.util.Date;
 @RestController
 public class Heartbeat {
 
-	public class HeartbeatReport
+	public static class HeartbeatReport
 	{
 		public HeartbeatReport()
 		{
@@ -18,7 +18,7 @@ public class Heartbeat {
 			timestamp = dateFormat.format(date);
 		}
 
-		private String timestamp;
+		private final String timestamp;
 
 		public String getTimestamp()
 		{
